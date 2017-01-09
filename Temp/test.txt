@@ -1,1 +1,6 @@
-Test
+First check the status for all local changes: git status   (files will appear in red)
+add all the required changes: git add FILE_NAME_WITH_FULL_PATH
+Check once again for all the new files you are going to commit: git status (files will appear in green)
+commit to local repo: git commit -m "MESSAGE_FOR_THIS_COMMIT"
+update local repo before pushing your local changes: git pull
+push your local repo changes to remote server: git push origin master
